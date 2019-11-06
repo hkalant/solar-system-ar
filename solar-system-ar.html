@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solar System (Animated AR Model)</title>
+	<script>
+		const a = document.createElement("a");
+		if (a.relList.supports("ar")) {
+		  // AR is available.
+		}
+	</script>
+	<style>
+	body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; line-height: 27px;}
+	</style>
+</head>
+
+<body>
+    <h1>AR Model</h1>
+    <p>This AR model has been created using Apple's AR Quick Look and requires Safari and an iPhone with TrueDepth camera (i.e. iPhone X or later). Clicking on the image below will open Safari's AR Viewer which allows you to view the object in 3D or AR mode.</p>
+	<a rel="ar" href="https://github.com/hkalant/solar-system-ar/blob/master/solar-system.reality?raw=true" rel="ar">
+	    <img src="https://raw.githubusercontent.com/hkalant/solar-system-ar/master/the-solar-system.jpg" width=300>
+	</a>
+</body>
+</html>
